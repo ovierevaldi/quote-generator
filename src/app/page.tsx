@@ -23,11 +23,11 @@ export default function Home() {
   return (
     <>
       <div className="grid h-screen place-items-center">
-        <p className="text-5xl">Quote Generator</p>
+        <p className="text-4xl md:text-5xl">Quote Generator</p>
 
         <div
-          className='max-w-xl text-center border p-8 rounded-lg'>
-          <p className="text-3xl italic" id='quote-text'>
+          className='max-w-[300px] md:max-w-xl text-center border p-8 rounded-lg'>
+          <p className="text-xl md:text-3xl italic" id='quote-text'>
             {currentQuotes ? currentQuotes : 'Try generate...'}
           </p>
         </div>
